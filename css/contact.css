@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 35vh;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 3%;
+    margin-right: 50px;
+    height: 30vh;
+    width: 20%;
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
+}
